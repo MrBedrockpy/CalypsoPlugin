@@ -2,13 +2,14 @@ name: Calypso
 version: '${project.version}'
 main: me.mrbedrockpy.calypso.Calypso
 api-version: 1.19
+description: 'Плагин на апокалипсис, тех работы и ивент с боссом'
 
 commands:
   infoplayers:
     description: Выводит информацию о всех игроках на сервере
   apocalypseevent:
-    description: включает/выключает режим ивента
+    description: включает/выключает режим апокалипсиса
   adminwhitelist:
     description: включает/выключает режим тех работ
   bossevent:
-    description: включает/выключает режим тех работ
+    description: включает/выключает режим ивента с боссом
